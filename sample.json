@@ -1,0 +1,63 @@
+{
+  "topic_checkpoints": [
+    {
+      "user_id": null,
+      "topic_id": 1,
+      "start_msg_idx": 0,
+      "end_msg_idx": 15,
+      "summary": "User 1 discussed moving to a new city while User 2 responded positively.",
+      "keywords": [
+        "moving",
+        "city",
+        "excited",
+        "conversation",
+        "greetings"
+      ]
+    }
+  ],
+
+  "message_checkpoints": [
+    {
+      "user_id": null,
+      "checkpoint_id": 1,
+      "start_msg_idx": 0,
+      "end_msg_idx": 99,
+      "message_count": 100,
+      "summary": "Summary of the first 100 messages."
+    }
+  ],
+
+  "mood_checkpoints": [
+    {
+      "user_id": null,
+      "day_index": 0,
+      "segment_start_idx": 0,
+      "segment_end_idx": 14,
+      "mood_label": "happy",
+      "mood_score": 0.92,
+      "tone_label": "casual"
+    }
+  ],
+
+  "day_checkpoint_metadata": [
+    {
+      "day_index": 0,
+      "message_count": 14,
+      "summary": "Summary of all conversations for day 0."
+    }
+  ],
+
+  "events_memory": [
+    {
+      "user_id": null,
+      "event_type": "mentioned_moving",
+      "description": "User mentioned moving to a new city.",
+      "day_index": 0,
+      "msg_idx": 8,
+      "metadata": {
+        "location": "new city",
+        "confidence": 0.94
+      }
+    }
+  ]
+}
